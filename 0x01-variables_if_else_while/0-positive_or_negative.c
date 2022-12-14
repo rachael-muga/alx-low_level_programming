@@ -1,29 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-/**
- * main - A program to determine the value of the random number
- *
- * Return: Alway 0
- */
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
-		int n, lasDigit;
+	int n;
 
-		srand(time(0));
-		n = rand() - RAND_MAX / 2;
-		lasDigit = n % 10;
-		if (lasDigit > 5)
-		{
-			printf("Last digit of %d is %d and is greater than 5\n", n, lasDigit);
-		}
-		else if (lasDigit == 0)
-		{
-			printf("Last digit of %d is %d and is 0\n", n, lasDigit);
-		}
-		else
-		{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lasDigit);
-		}
-		return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+if (n == 0)
+		printf("%d is zero\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
+	else
+		printf("%d is positive\n", n);
+
+	return (0);
 }
