@@ -1,4 +1,4 @@
-##LEARNING OBJECTIVES
+## LEARNING OBJECTIVES
 What are the arithmetic operators and how to use them
 What are the logical operators (sometimes called boolean operators) and how to use them
 What the the relational operators and how to use them
@@ -15,7 +15,7 @@ How to print variables using printf
 What is the ASCII character set
 What are the purpose of the gcc flags -m32 and -m64
 
-##REQUIREMENTS 
+## REQUIREMENTS 
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
